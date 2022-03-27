@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    }
+
+    .sidebar {
+        flex: 1;
+        padding: 10px;
+        }
+        .content{
+            flex: 3;
+            padding: 10px;
+            }
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+            button{
+                border-radius: 50px;
+                margin: 0 auto;
+                display: block;
+                border-width: 0;
+                padding: 10px;
+                background-color: #567fa2;
+                color: #d34f5e;
+                font-size: 16px;
+            }
